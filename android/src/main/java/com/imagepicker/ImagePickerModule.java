@@ -317,10 +317,10 @@ public class ImagePickerModule extends ReactContextBaseJavaModule
     this.callback = callback;
     this.options = options;
 
-    if (!permissionsCheck(currentActivity, callback, REQUEST_PERMISSIONS_FOR_LIBRARY))
-    {
-      return;
-    }
+//    if (!permissionsCheck(currentActivity, callback, REQUEST_PERMISSIONS_FOR_LIBRARY))
+//    {
+//      return;
+//    }
 
     parseOptions(this.options);
 
